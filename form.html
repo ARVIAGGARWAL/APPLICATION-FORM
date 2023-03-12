@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>JOB APPLICATION FORM</title>
+</head>
+<body>
+    <img src="picture1.jpg">
+    <div class="container">
+    <div class="box">
+        <h1>JOB APPLICATION</h1>
+            <form>
+                <div class="forma">
+                <div class="formaa">
+                    <label for="fname">FIRST NAME</label>
+                    <input id="fname" name ="fname" placeholder="ENTER YOUR FIRST NAME">
+                </div>
+                <div class="formaa">
+                    <label for="lname">LAST NAME</label>
+                    <input id="lname" name="lname" placeholder="ENTER YOUR LAST NAME">
+                </div>
+                <div class="formaa">
+                    <label for="EMAILL">EMAIL</label>
+                    <input id="EMAILL" name="EMAILL" type="email" placeholder="ENTER YOUR EMAIL">
+                </div>
+                <div class="formaa">
+                    <label for="jobrole">JOB ROLE</label>
+                    <select id="jobrole" name="jobrole">
+                        <option value="">Select Job Role</option>
+                        <option value="FRONTEND">FRONTEND DEVLOPER</option>
+                        <option value="BACKEND">BACKEND DEVLOPER</option>
+                        <option value="FULLSTACK DEVELOPER">FULL STACK DEVLOPER</option>
+                    </select>
+                </div>
+                <div class="textarea">
+                    <label for="ADRESS">ADDRESS</label>
+                    <textarea id="address" name="address" 
+                    row="4" cols="50" placeholder="ENTER ADDRESS"></textarea>
+                </div>
+                <div class="formaa">
+                    <label for="date">DATE</label>
+                    <input id="date" name="date" type="date" value= "2001-01-01">
+                </div>
+                <div class="formaa">
+                    <label for="upload">UPLOAD YOUR CV</label>
+                    <input id="upload" name="upload" type="file" >
+                </div>
+                <div class="BUTTON"></div>
+                <button type="submit">APPLY NOW</button>
+                </div>    
+            </form>
+    </div>
+    </div>
+</body>
+</html>
